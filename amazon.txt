@@ -1,0 +1,34 @@
+Amazon Web Services EC2, ELB, VPC, S3, IAM, Cloud Watch, SNS and CLI.  Amazon Databases Amazon Redshift and Amazon RDS
+
+Jio number---8660664624
+Alien Techno Solutions Pvt Ltd
+No: 780, Second Floor, 19th Main Road, 1st Sector, HSR Layout, 
+560102 Bengaluru
+
+Worked on the databases of the Amazon RDS and carried out functionalities for creating instances as per the requirements.
+Implemented Amazon RDS multi-AZ for automatic failover and high availability at the database tier.
+Configured AWS CLI and performed necessary actions on the AWS services using shell scripting.
+Environment: AWS (S3, Redshift, EC2, ELB, AutoScalingGroups, CloudWatch, 
+ IAM,  RDS, Elastic BeanStalk), Jenkins, Ansible, Shell/Bash scripting, Python, JIRA, GIT)
+
+
+https://www.edureka.co/blog/interview-questions/top-aws-architect-interview-questions-2016/?utm_source=blog&utm_medium=left-menu&utm_campaign=what-is-aws
+
+
+Good knowledge on Amazon Web Services(AWS), Amazon Cloud Services like Elastic Compute Cloud(EC2),
+Configured AWS Identity Access Management (IAM) Group and users for improved login authentication.
+
+Creating S3 Buckets to storing the data received at our service endpoint which is in Json format
+
+Redshift have diffrent area to lanuch data
+ Staging - To store the incremental data captured in S3 without manipulating 
+ Warehouse - Its the main area which stores all the data recived from multiple integration partner
+ Parking - Parking area is to hold intermediate data during aggregation which will be cleaned up during every execution
+
+RDS - Mainly used to store latest currentsnapshot data and aggregated information which will be used for Reporting 
+Reports are majorly delivered from RDS instances
+
+Pentaho - Its a BI tool used for ETL accross multiple instances to move the to diffrent areas. 
+SOS Job Scheduler used for job scheduling created through pentaho
+
+https://linuxaws.wordpress.com/2016/06/04/important-aws-devops-interview-questions-to-ask/
